@@ -7,12 +7,12 @@
 var score = 80;
 var secondScore = 90;
 
-export function averageScore() {
+export function averageScore(score, secondScore) {
   score = (score + secondScore) / 2;
   return score;
 }
 
-var average = averageScore();
+var average = averageScore(score,secondScore);
 
 // Be sure to comment out these lines
 console.log("The first score is", score);
